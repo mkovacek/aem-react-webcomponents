@@ -1,0 +1,33 @@
+Bundle-Category: ${componentGroupName}
+Bundle-SymbolicName: com.ibmix.adobe.aem.core
+
+# export all versioned packages except for conditional ones (https://github.com/bndtools/bnd/issues/3721#issuecomment-579026778)
+-exportcontents: com.ibmix.adobe.aem.core.*
+
+# reproducible builds (https://github.com/bndtools/bnd/issues/3521)
+-noextraheaders: true
+-snapshot: SNAPSHOT
+
+Bundle-DocURL:
+-plugin org.apache.sling.caconfig.bndplugin.ConfigurationClassScannerPlugin
+-plugin org.apache.sling.bnd.models.ModelsScannerPlugin
+
+-fixupmessages: "Classes found in the wrong directory";is:=warning
+
+Import-Package: \
+  javax.annotation;version=0.0.0,\
+  *;resolution:=optional
+
+-includeresource: \
+    lib/feign-core.jar=feign-core-*.jar;lib:=true,\
+    lib/feign-jackson.jar=feign-jackson-*.jar;lib:=true,\
+    lib/jakarta.validation-api.jar=jakarta.validation-api-*.jar;lib:=true,\
+    lib/hibernate-validator.jar=hibernate-validator-*.jar;lib:=true,\
+    lib/jboss-logging.jar=jboss-logging-*.jar;lib:=true,\
+    lib/jakarta.el-api.jar=jakarta.el-api-*.jar;lib:=true,\
+    lib/jakarta.el.jar=jakarta.el-*.jar;lib:=true,\
+    lib/classmate.jar=classmate-*.jar;lib:=true,\
+    lib/caffeine.jar=caffeine-*.jar;lib:=true,\
+    lib/org.apache.sling.dynamic-include.jar=org.apache.sling.dynamic-include-*.jar;lib:=true,\
+
+

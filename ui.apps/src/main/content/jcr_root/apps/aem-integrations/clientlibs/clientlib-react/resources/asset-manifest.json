@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/etc.clientlibs/aem-integrations/clientlibs/clientlib-react/resources/static/js/main.cf3ed3b3.chunk.js",
+    "main.js.map": "/etc.clientlibs/aem-integrations/clientlibs/clientlib-react/resources/static/js/main.cf3ed3b3.chunk.js.map",
+    "runtime-main.js": "/etc.clientlibs/aem-integrations/clientlibs/clientlib-react/resources/static/js/runtime-main.fd62bb7e.js",
+    "runtime-main.js.map": "/etc.clientlibs/aem-integrations/clientlibs/clientlib-react/resources/static/js/runtime-main.fd62bb7e.js.map",
+    "static/js/2.229d7d85.chunk.js": "/etc.clientlibs/aem-integrations/clientlibs/clientlib-react/resources/static/js/2.229d7d85.chunk.js",
+    "static/js/2.229d7d85.chunk.js.map": "/etc.clientlibs/aem-integrations/clientlibs/clientlib-react/resources/static/js/2.229d7d85.chunk.js.map",
+    "index.html": "/etc.clientlibs/aem-integrations/clientlibs/clientlib-react/resources/index.html",
+    "static/js/2.229d7d85.chunk.js.LICENSE.txt": "/etc.clientlibs/aem-integrations/clientlibs/clientlib-react/resources/static/js/2.229d7d85.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fd62bb7e.js",
+    "static/js/2.229d7d85.chunk.js",
+    "static/js/main.cf3ed3b3.chunk.js"
+  ]
+}
