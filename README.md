@@ -3,8 +3,8 @@
 Sample AEM project with integrated standard **HTL** and **React Web Components**.
 
 ## How to integrate **React Web Components**
-* check ui.frontend.react module
-* check components /apps/aem-integrations/components/react/*
+* check **ui.frontend.react** module
+* check components **/apps/aem-integrations/components/react/***
 
 ## Modules
 
