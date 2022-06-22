@@ -1,8 +1,8 @@
 Bundle-Category: ${componentGroupName}
-Bundle-SymbolicName: com.ibmix.adobe.aem.core
+Bundle-SymbolicName: com.mkovacek.adobe.aem.core
 
 # export all versioned packages except for conditional ones (https://github.com/bndtools/bnd/issues/3721#issuecomment-579026778)
--exportcontents: com.ibmix.adobe.aem.core.*
+-exportcontents: com.mkovacek.adobe.aem.core.*
 
 # reproducible builds (https://github.com/bndtools/bnd/issues/3521)
 -noextraheaders: true

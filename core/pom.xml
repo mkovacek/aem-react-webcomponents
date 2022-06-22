@@ -18,7 +18,7 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.ibmix.adobe.aem</groupId>
+        <groupId>com.mkovacek.adobe.aem</groupId>
         <artifactId>aem-integrations</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
@@ -84,8 +84,8 @@
                             <inputSpec>${project.basedir}/src/main/resources/integrations/pet-store.yaml</inputSpec>
                             <generatorName>java</generatorName>
                             <library>feign</library>
-                            <apiPackage>com.ibmix.adobe.aem.core.integrations.petstore.api</apiPackage>
-                            <modelPackage>com.ibmix.adobe.aem.core.integrations.petstore.model</modelPackage>
+                            <apiPackage>com.mkovacek.adobe.aem.core.integrations.petstore.api</apiPackage>
+                            <modelPackage>com.mkovacek.adobe.aem.core.integrations.petstore.model</modelPackage>
                             <configOptions>
                                 <sourceFolder>src/gen/java/main</sourceFolder>
                             </configOptions>

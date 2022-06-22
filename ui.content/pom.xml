@@ -21,7 +21,7 @@
     <!-- P A R E N T  P R O J E C T  D E S C R I P T I O N                      -->
     <!-- ====================================================================== -->
     <parent>
-        <groupId>com.ibmix.adobe.aem</groupId>
+        <groupId>com.mkovacek.adobe.aem</groupId>
         <artifactId>aem-integrations</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
@@ -50,7 +50,7 @@
                     <properties>
                         <cloudManagerTarget>none</cloudManagerTarget>
                     </properties>
-                    <group>com.ibmix.adobe.aem</group>
+                    <group>com.mkovacek.adobe.aem</group>
                     <name>aem-integrations.ui.content</name>
                     <packageType>content</packageType>
                     <accessControlHandling>merge</accessControlHandling>
@@ -63,7 +63,7 @@
                     </validatorsSettings>
                     <dependencies>
                         <dependency>
-                            <groupId>com.ibmix.adobe.aem</groupId>
+                            <groupId>com.mkovacek.adobe.aem</groupId>
                             <artifactId>aem-integrations.ui.apps</artifactId>
                             <version>${project.version}</version>
                         </dependency>
@@ -87,12 +87,12 @@
     <!-- ====================================================================== -->
     <dependencies>
         <dependency>
-            <groupId>com.ibmix.adobe.aem</groupId>
+            <groupId>com.mkovacek.adobe.aem</groupId>
             <artifactId>aem-integrations.core</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.ibmix.adobe.aem</groupId>
+            <groupId>com.mkovacek.adobe.aem</groupId>
             <artifactId>aem-integrations.ui.apps</artifactId>
             <version>${project.version}</version>
             <type>zip</type>

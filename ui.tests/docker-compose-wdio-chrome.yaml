@@ -35,7 +35,7 @@ services:
       - ./target/reports:/tmp/reports
       - 'shared:/tmp/shared'
       - 'shared:/usr/src/app/assets'
-    image: 'com.ibmix.adobe.aem-aem-integrations.ui.tests/ui.tests:latest'
+    image: 'com.mkovacek.adobe.aem-aem-integrations.ui.tests/ui.tests:latest'
   selenium-chrome:
     image: 'selenium/standalone-chrome-debug:latest'
     ports:

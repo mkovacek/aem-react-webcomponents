@@ -76,7 +76,7 @@ This project also provides Maven profiles to build and execute the tests using D
 mvn clean install -Pui-tests-docker-build
 ```
 
-will build Docker image `com.ibmix.adobe.aem-aem-integrations.ui.tests/ui.tests` locally
+will build Docker image `com.mkovacek.adobe.aem-aem-integrations.ui.tests/ui.tests` locally
 
 ### Run Tests
 
